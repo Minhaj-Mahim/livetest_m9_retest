@@ -73,7 +73,7 @@ class _ButtonColorChangeDemoState extends State<ButtonColorChangeDemo> {
                   style: TextStyle(
                     color: selectedColor == Colors.blue
                         ? Colors.white
-                        : Colors.black,
+                        : Colors.white,
                   ),
                 ),
               ),
@@ -96,7 +96,7 @@ class _ButtonColorChangeDemoState extends State<ButtonColorChangeDemo> {
                   style: TextStyle(
                     color: selectedColor == Colors.green
                         ? Colors.white
-                        : Colors.black,
+                        : Colors.white,
                   ),
                 ),
               ),
@@ -110,15 +110,16 @@ class _ButtonColorChangeDemoState extends State<ButtonColorChangeDemo> {
                   showSnackbar(context, 'Size: L');
                 },
                 style: ElevatedButton.styleFrom(
-                  primary:
-                  selectedColor == Colors.red ? Colors.amber : Colors.grey,
+                  primary: selectedColor == Colors.red
+                      ? Colors.amber
+                      : Colors.grey,
                 ),
                 child: Text(
                   'L',
                   style: TextStyle(
                     color: selectedColor == Colors.red
                         ? Colors.white
-                        : Colors.black,
+                        : Colors.white,
                   ),
                 ),
               ),
@@ -143,7 +144,7 @@ class _ButtonColorChangeDemoState extends State<ButtonColorChangeDemo> {
                   style: TextStyle(
                     color: selectedColor == Colors.red
                         ? Colors.white
-                        : Colors.black,
+                        : Colors.white,
                   ),
                 ),
               ),
@@ -169,7 +170,7 @@ class _ButtonColorChangeDemoState extends State<ButtonColorChangeDemo> {
                   style: TextStyle(
                     color: selectedColor == Colors.red
                         ? Colors.white
-                        : Colors.black,
+                        : Colors.white,
                   ),
                 ),
               ),
@@ -195,7 +196,7 @@ class _ButtonColorChangeDemoState extends State<ButtonColorChangeDemo> {
                   style: TextStyle(
                     color: selectedColor == Colors.red
                         ? Colors.white
-                        : Colors.black,
+                        : Colors.white,
                   ),
                 ),
               ),
